@@ -1,0 +1,201 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Kelly Bosman
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+.home-page {
+    background: url("img/mountain-clouds-evelyn-mostrom.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    margin: 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+	color: #4700b3;
+	font-family: 'Lora';
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+#masthead {
+  background: none repeat scroll 0 0 #3d0099;
+}
+
+.button {
+	background: none repeat scroll 0 0 #3d0099;
+}
+
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+
+/* Featured Work on Homepage */
+
+.featured-work {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	background: #8DB3BB;
+}
+
+.homepage-featured-work {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+ul.homepage-featured-work {
+	margin: 0;
+}
+
+li.individual-featured-work {
+	padding: 1em;
+}
+
+.individual-featured-work {
+	list-style: none;
+	width: 90%;
+}
+
+.featured-work h3 {
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+	width: 90%;
+}
+
+.featured-work h4 {
+	font-family: 'Montserrat' , sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Projects */
+
+aside.project-sidebar {
+	float: left;
+	height: auto;
+	margin: 2em;
+	width: 35%;
+}
+
+aside.project-sidebar h2 {
+	font-family: 'Open Sans' , sans-serif , semi-bold;
+	font-size: 1.5em;
+	margin: 0;
+}
+
+aside.project-sidebar h5 {
+	color: #878787;
+	font-size: 1em;
+	font-weight: 400;
+	font-family: 'Open Sans' , sans-serif;
+	text-transform: capitalize;
+	margin: 0;
+}
+
+aside.project-sidebar h4 {
+	font-size: 1em;
+	font-weight: 500;
+}
+
+div.project-images {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-right: 0;
+}
+
+div.project-images img {
+	width: 100%;
+	height: auto;
+	padding: 1em 2em;
+}
+
+.project {
+	background: #8DB3BB;
+	padding: 1em 1em;
+}
+
+.site-content-sidebar .project {
+	margin-right: 0;
+}
+
+
+/* Footer - ADDED THIS BUT DOESN'T SEEM TO WORK*/
+
+.site-footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-top: 0;
+	padding-bottom: 2em;
+}
+
+.site-footer .social-media-menu li {
+	list-style-type: none;
+	display: inline-flex;
+	padding: 2px;
+}
+
+div.menu-social-media-nav-container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+div.site-description {
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+	.homepage-featured-work {
+		column-width: 250px;
+	}
+
+	div.project-images {
+	display: flex;
+	flex-direction: column wrap;
+	justify-content: flex-start;
+	}
+}
+
+
+
+
+
+
+
+
+
+
